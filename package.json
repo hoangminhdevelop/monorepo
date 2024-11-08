@@ -1,0 +1,11 @@
+{
+  "name": "lerna",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lerna (Monorepo demo)",
+  "license": "MIT",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
