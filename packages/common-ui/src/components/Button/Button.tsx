@@ -1,11 +1,9 @@
-import React from "react";
-
-export interface ButtonProps {
+export type ButtonProps = {
   children: React.ReactNode;
-  type?: "button" | "submit" | "reset";
-  variant?: "primary" | "secondary";
-}
-
-export const Button = (props: ButtonProps) => {
-  return <button style={{ background: "red" }}>{props.children}</button>;
 };
+
+const Button = ({ children }: ButtonProps) => {
+  return <button style={{ background: "red" }}>{children}</button>;
+};
+
+export default Button;

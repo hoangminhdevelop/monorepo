@@ -9,7 +9,7 @@
     "packages/*"
   ],
   "scripts": {
-    "bootstrap": "lerna bootstrap",
+    "bootstrap": "lerna run bootstrap",
     "build": "lerna run build",
     "clean": "lerna clean",
     "publish": "lerna publish",
